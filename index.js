@@ -2,7 +2,7 @@
 
 const showMenu = () => {
   const menuElm = document.querySelector('.menu__links');
-  menuElm.classList.toggle('menu--closed');
+  menuElm.classList.toggle('menu--opened');
 };
 
 const btnElm = document.querySelector('#menu__btn');

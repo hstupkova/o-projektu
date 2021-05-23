@@ -50,13 +50,14 @@ body {
 
 .menu__links {
   background-color: var(--c-accent);
-  display: block;
   padding: 1rem;
   position: relative;
+  display: none;
+  min-width: 90%;
 }
 
-.menu--closed {
-  display: none;
+.menu--opened {
+  display: block;
 }
 
 .menu__item {
@@ -279,6 +280,8 @@ body {
 .text {
   max-width: 600px;
   margin: calc(var(--spacer) * 3) auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
 
   font-family: var(--font);
   font-size: 1.125rem;
